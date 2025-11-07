@@ -4,7 +4,11 @@ function App() {
   return (
     <>
       <h1>Learn Web development</h1>
-      <p>button</p>
+      <div>
+        {languages.map((lang) => (
+          <button key={lang.id}>{lang.title}</button>
+        ))}
+      </div>
     </>
   )
 }
