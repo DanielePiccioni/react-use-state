@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.buttons-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.lang-button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+
+}
+
+.lang-button.active {
+    background: yellow;
+    color: black;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 16px;
+}
